@@ -1,0 +1,36 @@
+{
+  "name": "open-next-podcast",
+  "version": "1.0.0",
+  "description": "This is a project forked from podcast-filter-recat-SSR but now we're building on NextJS framework ;)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "AudioBoom",
+    "API",
+    "Podcast",
+    "NextJS"
+  ],
+  "author": "arodrigueze_",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "date-fns": "^2.19.0",
+    "humanize-duration": "^3.25.0",
+    "jest": "^26.6.3",
+    "lozad": "^1.16.0",
+    "next": "^10.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
